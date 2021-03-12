@@ -1,0 +1,75 @@
+.NavBar{
+    .nav{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .profile{
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid #2e344e;
+            // Personal avatar image styling
+            img{
+                width: 70%;
+                border-radius: 100%;
+                // border: 3px solid #2e344e;
+                margin-bottom: 1rem;
+                border: double 2px transparent;
+                background-image: linear-gradient(white, white), radial-gradient(circle at top left ,#78ffd6, #007991);
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                margin-top: 1rem;
+            }
+        }
+
+        .nav-items{
+            width: 100%;
+            .nav-item{
+                list-style: none;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    font-size: inherit;
+                    color: inherit;
+                    display: block;
+                    padding: .5rem 0;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: .4rem;
+                        height: 100%;
+                        background-color: #78ffd762;
+                        transform-origin: bottom;
+                        transform: scale(0);
+                        overflow-x: hidden;
+                        transition: transform .5s, .2s width .4s cubic-bezier(1,-0.16,.6,1.35);
+                    }
+
+                    &:hover::before{
+                        width: 100%;
+                        transform: scale(1);
+                    }
+                    
+                }
+            }
+        }
+
+        .footer{
+            width: 100%;
+            border-top: 1px solid #2e344e;
+            p{
+                text-align: center;
+                padding: 1rem 0;
+            }
+        }
+    }
+}
+
+.active {
+    background-color: #3e71fd5d;
+}

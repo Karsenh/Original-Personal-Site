@@ -1,0 +1,46 @@
+.HomePage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    span{
+        color: #78ffd6;
+    }
+}
+
+.h-sub-text{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-left: 10px;
+    .icon-holder{
+        margin-right: 1rem;
+        .icon{
+            // Icon Size
+            font-size: 1.6rem;
+            color: #bdffeb;
+            transition: all .3s ease-in-out;
+        }
+        .fb:hover{
+            color: #4578df;
+        }
+        .gh:hover{
+            color: #6cc644;
+        }
+        .lin:hover{
+            color: #2867B2;
+        }
+    }
+}

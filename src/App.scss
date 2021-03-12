@@ -1,14 +1,24 @@
+
 @import './styles/layout';
+@import './styles/navbar';
+@import './styles/typography';
 
+/*
+Main Colors: #007991 (dark blue) && #78ffd6 (turqoise) && #3e71fd5d (active navbar)
+*/
 
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     color: #a4acc4;
     font-family: 'Montserrat', sans-serif;
-    font-size: .2rem;
+    font-size: 1.2rem;
+}
+
+footer{
+    font-size: 0.8rem;
 }
