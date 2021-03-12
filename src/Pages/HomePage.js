@@ -10,10 +10,10 @@ const HomePage = () => {
     <div className='HomePage'>
       <header className='hero'>
         <h1 className='hero-text'>
-          Hi, I am
+          Hi, 👋🏼 I'm
           <span> Karsen</span>
         </h1>
-        <p className='h-sub-text'>Lorem Ipsum</p>
+        <p className='h-sub-text'>World-class Web Developer.</p>
         <div className='icons'>
           <Link className='icon-holder'>
             <FontAwesomeIcon icon={faFacebook} className='icon fb' />
