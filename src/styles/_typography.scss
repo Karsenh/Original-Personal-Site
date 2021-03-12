@@ -1,4 +1,4 @@
-.HomePage{
+.HomePage {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -6,40 +6,47 @@
     width: 80%;
 }
 
-.hero-text{
+.hero-text {
     color: white;
     text-align: center;
     font-size: 3.6rem;
-    span{
+
+    span {
         color: #78ffd6;
     }
 }
 
-.h-sub-text{
+.h-sub-text {
     text-align: center;
+    margin-top: 15px;
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem 0;
     margin-left: 10px;
-    .icon-holder{
+
+    .icon-holder {
         margin-right: 1rem;
-        .icon{
+
+        .icon {
             // Icon Size
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             color: #bdffeb;
             transition: all .3s ease-in-out;
         }
-        .fb:hover{
+
+        .fb:hover {
             color: #4578df;
         }
-        .gh:hover{
+
+        .gh:hover {
             color: #6cc644;
         }
-        .lin:hover{
+
+        .lin:hover {
             color: #2867B2;
         }
     }

@@ -13,7 +13,9 @@ const HomePage = () => {
           Hi, 👋🏼 I'm
           <span> Karsen</span>
         </h1>
-        <p className='h-sub-text'>World-class Web Developer.</p>
+        <p className='h-sub-text'>
+          Computer Science Major | Full-Stack Web Dev | Start-up Enthusiast
+        </p>
         <div className='icons'>
           <Link className='icon-holder'>
             <FontAwesomeIcon icon={faFacebook} className='icon fb' />
