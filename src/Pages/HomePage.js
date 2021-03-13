@@ -1,5 +1,5 @@
 import React from 'react';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -36,7 +36,7 @@ const HomePage = () => {
         </p>
         <div className='icons'>
           <Link className='icon-holder'>
-            <FontAwesomeIcon icon={faFacebook} className='icon fb' />
+            <FontAwesomeIcon icon={faInstagram} className='icon ig' />
           </Link>
           <Link className='icon-holder'>
             <FontAwesomeIcon icon={faGithub} className='icon gh' />
