@@ -10,7 +10,12 @@ import Particles from 'react-particles-js';
 const HomePage = () => {
   return (
     <div className='HomePage'>
-      <Particles canvasClassName='HomePage' height='100vh' width='80vw' />
+      <Particles
+        className='particles-class'
+        canvasClassName='HomePage'
+        height='100vh'
+        width='80vw'
+      />
       <header className='hero'>
         <h1 className='hero-text'>
           Hi, 👋🏼 I'm
