@@ -28,12 +28,12 @@ const HomePage = () => {
             className='typed-text'
             strings={[
               'Computer Science Major',
-              'Full-Stack Web Dev',
+              'Full-Stack Web Developer',
               'Software Developer',
               'Meme lord.',
             ]}
-            typeSpeed={65}
-            backSpeed={50}
+            typeSpeed={60}
+            backSpeed={40}
             loop={true}
           />
         </p>
