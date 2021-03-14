@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../img/custom_avatar.jpg';
+import avatar from '../img/mainProfilePic.jpg';
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
