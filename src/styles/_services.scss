@@ -1,6 +1,7 @@
 @import './colors';
 
 .services-section{
+
     .service{
         width: 95%;
         background-color: $side-bar-color;
@@ -30,11 +31,15 @@
                     background-color: $base-turq;
                 }
             }
+            .s-text{
+                font-size: 1.2rem;
+            }
         }
     }
 }
 
 .services-container{
+    margin-top: 4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }

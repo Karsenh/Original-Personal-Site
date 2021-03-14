@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from '../img/about-2-img.jpg';
+import aboutImg from '../img/about-img-2.png';
 
 function ImageSection() {
   return (
@@ -9,12 +9,13 @@ function ImageSection() {
       </div>
       <div className='about-info'>
         <h4>
-          I am {'{ '} <span>Karsen</span> {' }'}
+          I'm {'{ '} <span>Karsen</span> {' }'}
         </h4>
         <p className='about-text'>
-          <em>Gonzaga University</em> graduate with a passion for anything that
-          has to do with computers, <strong>Full Stack Web-Development</strong>{' '}
-          and <strong>Data Science</strong> in particular.
+          <em>Gonzaga University</em> graduate & lifelong computerphile. I have
+          a passion for <strong>Full-Stack Web Development</strong> &{' '}
+          <strong>Data Science</strong>. If you're ever wondering what I'm up
+          to, check GitHub.
         </p>
         <div className='about-details'>
           <div className='left-section'>
@@ -33,7 +34,7 @@ function ImageSection() {
             <p>: Liberty Lake, WA</p>
             <p>
               {' '}
-              Associates of Science & Bachelors in Computer Science (Honors)
+              Associates of Science & Bachelors in Computer Science ( 3.8GPA )
             </p>
           </div>
         </div>

@@ -3,7 +3,10 @@ import Title from '../components/Title';
 import ImageSection from '../components/ImageSection';
 import SkillsSection from '../components/SkillsSection';
 import ServicesSection from '../components/ServicesSection';
-import design from '../img/design.svg';
+import intelligence from '../img/intelligence.svg';
+import datascience from '../img/DataScienceImg.png';
+import webdev from '../img/webdev.png';
+import uiux from '../img/uiux.png';
 
 function AboutPage() {
   return (
@@ -22,21 +25,22 @@ function AboutPage() {
         <SkillsSection skill={'Swift'} progress={'60%'} />
         <SkillsSection skill={'X86 Assembly'} progress={'40%'} />
       </div>
+      <Title title={'My Services'} span={'My Services'}></Title>
       <div className='services-container'>
         <ServicesSection
-          image={design}
-          title={'Web Design'}
-          text={'Professional Full-Stack Web Development'}
+          image={webdev}
+          title={'Web Dev'}
+          text={'Professional web development using MERN technology stack.'}
         />
         <ServicesSection
-          image={design}
+          image={datascience}
           title={'Data Science'}
-          text={'Cutting-edge Python data science and analytics'}
+          text={'Cutting-edge data science & analytics using Python3.'}
         />
         <ServicesSection
-          image={design}
+          image={uiux}
           title={'UI / UX'}
-          text={'Intuitive and Elegant UI/UX Design'}
+          text={'Elegant and intuitive user interfaces and experiences.'}
         />
       </div>
     </div>
