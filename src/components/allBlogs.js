@@ -17,7 +17,7 @@ const blogs = [
   {
     id: 2,
     image: blog2,
-    title: 'UI/UX Design Starter with Figma',
+    title: 'How to unplug from the matrix',
     link: 'https://www.facebook.com/',
     date: '09',
     month: 'Dec',
@@ -26,7 +26,7 @@ const blogs = [
   {
     id: 3,
     image: blog3,
-    title: 'UI/UX Design Starter with Figma',
+    title: 'Super-charge your learning',
     link: 'https://www.facebook.com/',
     date: '15',
     month: 'Jun',
