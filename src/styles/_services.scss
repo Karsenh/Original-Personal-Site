@@ -1,0 +1,40 @@
+@import './colors';
+
+.services-section{
+    .service{
+        width: 95%;
+        background-color: $side-bar-color;
+        border-left: 1px solid $border-color;
+        border-right: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        border-top: 8px solid $border-color;
+        transition: all .4s ease-in-out;
+        &:hover{
+            border-top: 8px solid $base-turq;
+        }
+        .service-content{
+            padding: 1rem;
+            .s-title{
+                font-size: 1.6rem;
+                font-weight: 500;
+                position: relative;
+                padding-bottom: 1rem;
+                margin: 1rem 0;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 30%;
+                    height: 1px;
+                    background-color: $base-turq;
+                }
+            }
+        }
+    }
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+}

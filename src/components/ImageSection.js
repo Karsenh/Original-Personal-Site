@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from '../img/about2.jpg';
+import aboutImg from '../img/about-2-img.jpg';
 
 function ImageSection() {
   return (
@@ -9,14 +9,35 @@ function ImageSection() {
       </div>
       <div className='about-info'>
         <h4>
-          I am<span> Lorem Ipsum</span>
+          I am {'{ '} <span>Karsen</span> {' }'}
         </h4>
-        <p>
-          Lorem ipsum dolor perferendis numquam dolorem cumque facilis. Desir
-          per po latte date cor inthiumenu por casa favor as ther thenamy
-          asgardian forte comme sem le
+        <p className='about-text'>
+          <em>Gonzaga University</em> graduate with a passion for anything that
+          has to do with computers, <strong>Full Stack Web-Development</strong>{' '}
+          and <strong>Data Science</strong> in particular.
         </p>
-        <div className='about-details'>Come back to this later...</div>
+        <div className='about-details'>
+          <div className='left-section'>
+            <p>Full Name</p>
+            <p>Age</p>
+            <p>Nationality</p>
+            <p>Languages</p>
+            <p>Location</p>
+            <p>Degrees</p>
+          </div>
+          <div className='right-section'>
+            <p>: Karsen Hansen</p>
+            <p>: 27</p>
+            <p>: Danish American</p>
+            <p>: English, Danish</p>
+            <p>: Liberty Lake, WA</p>
+            <p>
+              {' '}
+              Associates of Science & Bachelors in Computer Science (Honors)
+            </p>
+          </div>
+        </div>
+        <button className='btn'>Download</button>
       </div>
     </div>
   );

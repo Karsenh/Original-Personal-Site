@@ -1,3 +1,5 @@
+@import './colors';
+
 .NavBar {
     .nav {
         height: 100vh;
@@ -9,7 +11,7 @@
         .profile {
             width: 100%;
             text-align: center;
-            border-bottom: 1px solid #2e344e;
+            border-bottom: 1px solid $border-color;
 
             // Personal avatar image styling
             img {
@@ -47,7 +49,7 @@
                         left: 0;
                         width: .4rem;
                         height: 100%;
-                        background-color: #7d9bff62;
+                        background-color: $nav-hover-color;
                         transform-origin: bottom;
                         transform: scale(0);
                         overflow-x: hidden;

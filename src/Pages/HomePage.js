@@ -1,7 +1,9 @@
 import React from 'react';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+  faInstagram,
+  faGithub,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
@@ -38,9 +40,11 @@ const HomePage = () => {
           <Link className='icon-holder'>
             <FontAwesomeIcon icon={faInstagram} className='icon ig' />
           </Link>
+
           <Link className='icon-holder'>
             <FontAwesomeIcon icon={faGithub} className='icon gh' />
           </Link>
+
           <Link className='icon-holder'>
             <FontAwesomeIcon icon={faLinkedin} className='icon lin' />
           </Link>

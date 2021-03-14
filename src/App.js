@@ -4,6 +4,8 @@ import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
+import BlogPage from './Pages/BlogPage';
+import ContactPage from './Pages/ContactPage';
 import PortfolioPage from './Pages/PortfolioPage';
 
 const App = () => {
@@ -25,10 +27,10 @@ const App = () => {
               <PortfolioPage />
             </Route>
             <Route path='/blog' exact>
-              <AboutPage />
+              <BlogPage />
             </Route>
             <Route path='/contact' exact>
-              <AboutPage />
+              <ContactPage />
             </Route>
           </Switch>
         </div>

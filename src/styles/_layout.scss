@@ -2,16 +2,16 @@
     .sidebar {
         width: 16%;
         height: 100vh;
-        background-color: #191D2B;
+        background-color: $side-bar-color;
         position: fixed;
         // Border accent on the right side of the sidebar
-        border-right: 1px solid #2e344e;
+        border-right: 1px solid $border-color;
     }
 
     .main-content {
         width: 84%;
         margin-left: 16%;
-        background-color: #10121B;
+        background-color: $primary-content-color;
         min-height: 100vh;
         background-image: url(../img/dots.svg);
         display: grid;

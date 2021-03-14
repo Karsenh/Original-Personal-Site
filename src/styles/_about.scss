@@ -1,9 +1,12 @@
+@import './colors';
+
 .ImageSection{
     display: flex;
     margin-top: 4rem;
+    margin-bottom: 8rem;
     .img{
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         img{
             width: 100%;
             object-fit: cover;
@@ -16,5 +19,57 @@
         h4{
             font-size: 2rem;
         }
+        .about-text{
+            padding: 1rem 0;
+        }
     }
+}
+
+.about-details{
+    display: flex;
+    p{
+        padding: .35rem 0;
+    }
+    .right-section{
+        margin-left: 2.5rem;
+    }
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: #35be95;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    color: #d6fff3;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: .3rem;
+        left: 0;
+        bottom: 0;
+        background-color: #d6fff3;
+        ;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
+        color: $base-turq;
+    }
+}
+
+.skills-section-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 3rem;
+    margin: 4rem 0;
 }
