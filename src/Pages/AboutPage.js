@@ -3,7 +3,6 @@ import Title from '../components/Title';
 import ImageSection from '../components/ImageSection';
 import SkillsSection from '../components/SkillsSection';
 import ServicesSection from '../components/ServicesSection';
-import intelligence from '../img/intelligence.svg';
 import datascience from '../img/DataScienceImg.png';
 import webdev from '../img/webdev.png';
 import uiux from '../img/uiux.png';
@@ -11,8 +10,11 @@ import uiux from '../img/uiux.png';
 function AboutPage() {
   return (
     <div className='AboutPage'>
+      {/* ABOUT ME */}
       <Title title={'About Me'} span={'About Me'}></Title>
       <ImageSection />
+
+      {/* SKILLS */}
       <Title title={'My Skills'} span={'My Skills'}></Title>
       <div className='skills-section-container'>
         <SkillsSection skill={'HTML | JS | CSS '} progress={'80%'} />
@@ -25,6 +27,8 @@ function AboutPage() {
         <SkillsSection skill={'Swift'} progress={'60%'} />
         <SkillsSection skill={'X86 Assembly'} progress={'40%'} />
       </div>
+
+      {/* SERVICES */}
       <Title title={'My Services'} span={'My Services'}></Title>
       <div className='services-container'>
         <ServicesSection

@@ -1,0 +1,20 @@
+@import './colors';
+
+.BlogsPage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    .blog{
+        background-color: $side-bar-color;
+        width: 100%;
+        .blog-content{
+            padding: 1rem;
+            img{
+                width: 100%;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}

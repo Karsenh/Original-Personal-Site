@@ -31,7 +31,7 @@ function ImageSection() {
             <p>: 27</p>
             <p>: Danish American</p>
             <p>: English, Danish</p>
-            <p>: Liberty Lake, WA</p>
+            <p>: Liberty Lake, WA (the matrix)</p>
             <p>
               {' '}
               Associates of Science & Bachelors in Computer Science ( 3.8GPA )
