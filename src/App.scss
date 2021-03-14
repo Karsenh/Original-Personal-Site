@@ -16,6 +16,17 @@ Main Colors: #007991 (dark blue) && #78ffd6 (turqoise) && #3e71fd5d (active navb
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: $base-turq;
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    background-color: $base-blue;
+}
+
 body {
     color: #a4acc4;
     font-family: 'Montserrat', sans-serif;
