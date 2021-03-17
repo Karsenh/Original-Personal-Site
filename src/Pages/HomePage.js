@@ -28,24 +28,25 @@ const HomePage = () => {
             className='typed-text'
             strings={[
               'Computer Science Major',
-              'Full-Stack Web Dev',
-              'Meme Lord.',
+              'Full-Stack Web Developer',
+              'Software Developer',
+              'Meme lord.',
             ]}
-            typeSpeed={80}
-            backSpeed={60}
+            typeSpeed={60}
+            backSpeed={40}
             loop={true}
           />
         </p>
         <div className='icons'>
-          <Link className='icon-holder'>
+          <Link to='test' className='icon-holder'>
             <FontAwesomeIcon icon={faInstagram} className='icon ig' />
           </Link>
 
-          <Link className='icon-holder'>
+          <Link to='test' className='icon-holder'>
             <FontAwesomeIcon icon={faGithub} className='icon gh' />
           </Link>
 
-          <Link className='icon-holder'>
+          <Link to='test' className='icon-holder'>
             <FontAwesomeIcon icon={faLinkedin} className='icon lin' />
           </Link>
         </div>

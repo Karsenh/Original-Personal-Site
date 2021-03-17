@@ -12,10 +12,16 @@ function ImageSection() {
           I'm {'{ '} <span>Karsen</span> {' }'}
         </h4>
         <p className='about-text'>
+<<<<<<< HEAD
           <em>Gonzaga University</em> graduate & lifelong student of
           programming. I have a passion for <strong>Full-Stack Web Dev.</strong>
           , <strong>Data Science</strong>, &{' '}
           <strong>Software Development</strong>.
+=======
+          <em>Gonzaga University</em> graduate & lifelong computerphile. I have
+          a passion for Full-Stack Web Development & Data Science. If you're
+          ever curious what I'm up to, just check GitHub.
+>>>>>>> 4b4e3f186d050e844d558f1070f524725a9616ec
         </p>
         <div className='about-details'>
           <div className='left-section'>
