@@ -36,11 +36,13 @@
             font-size: 1.8rem;
             color: #a1a1a1;
             transition: all .3s ease-in-out;
+            
         }
 
         .ig:hover {
             font-size: 2.5rem;
             color: #C13584;
+            cursor: 'http://google.com';
         }
 
         .gh:hover {
