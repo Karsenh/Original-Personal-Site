@@ -6,6 +6,9 @@
         position: fixed;
         // Border accent on the right side of the sidebar
         border-right: 1px solid $border-color;
+        @media screen and (max-width: 1000px){
+            transform: translateX(-100%);
+        }
     }
 
     .main-content {
@@ -18,6 +21,42 @@
         position: relative;
         .content{
             margin: 5rem 15rem;
+        }
+        @media screen and (max-width: 1000px){
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+// Dynamic Nav Bar Button
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 8%;
+    width: 4rem;
+    height: 4rem;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    .lines-1, .lines-2, .lines-3{
+        height: .4rem;
+        width: 100%;
+        background-color: $base-turq;
+        pointer-events: none;
+        display: none;
+        border-radius: 20px;
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+    }
+    @media screen and (max-width: 1000px){
+        display: block;
+        .lines-1, .lines-2, .lines-3{
+            display: block;
         }
     }
 }
