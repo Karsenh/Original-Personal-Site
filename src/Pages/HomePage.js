@@ -5,7 +5,6 @@ import {
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import Particles from 'react-particles-js';
 
@@ -44,7 +43,7 @@ const HomePage = () => {
           </a>
 
           <a href='https://www.linkedin.com/in/karsenh' className='icon-holder'>
-            <FontAwesomeIcon icon={faLinkedin} className='icon li' />
+            <FontAwesomeIcon icon={faLinkedin} className='icon lin' />
           </a>
 
           <a

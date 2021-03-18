@@ -1,8 +1,6 @@
 @import './colors';
 
-.PortfolioPage{
 
-}
 .portfolios{
     width: 100%;
     display: grid;
@@ -16,7 +14,13 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .portfolio{
+        p{
+            font-size: 1rem;
+            margin-top: .6rem;
+            margin-bottom: 1rem;
+        }
         .image-data{
+            
             position: relative;
             &::before{
                 content: '';
@@ -77,6 +81,7 @@
             font-weight: 500;
             color: white;
             transition: all .3 ease-in-out;
+            margin-top: .8rem;
             &:hover{
                 color: $base-turq;
                 cursor: pointer;
