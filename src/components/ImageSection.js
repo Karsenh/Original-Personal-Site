@@ -13,8 +13,10 @@ function ImageSection() {
         </h4>
         <p className='about-text'>
           <em>Gonzaga University</em> graduate & lifelong student of
-          programming. I have a passion for Full-Stack Web Development & Data
-          Science. If you're ever curious what I'm up to, just check GitHub.
+          programming. I have a passion for{' '}
+          <strong>Full-Stack Web Development</strong>,{' '}
+          <strong>Data Science</strong>, & <strong>Software Development</strong>
+          . If you're ever curious what I'm up to, just check my GitHub.
         </p>
         <div className='about-details'>
           <div className='left-section'>

@@ -6,9 +6,15 @@
 .portfolios{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 2rem;
     column-gap: 1rem;
+    @media screen and (max-width: 1600px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 900px){
+        grid-template-columns: repeat(1, 1fr);
+    }
     .portfolio{
         .image-data{
             position: relative;
@@ -109,10 +115,47 @@
     }
 }
 
+.btn{
+    padding: 1rem 2rem;
+    background-color: #35be95;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    color: #d6fff3;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: .3rem;
+        left: 0;
+        bottom: 0;
+        background-color: #d6fff3;
+        ;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
+        color: $base-turq;
+    }
+}
+
 .buttons{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 4rem 10rem;
     flex-wrap: wrap;
+    @media screen and (max-width: 1270px) {
+        margin: 2rem 5rem;
+    }
+    @media screen and (max-width: 1100px) {
+        margin: 2rem 2rem;
+    }
 }

@@ -5,6 +5,11 @@ import port4 from '../img/portImages/port3.jpg';
 import port6 from '../img/portImages/port5.jpg';
 import port7 from '../img/portImages/port6.jpg';
 
+// Portfolio Categories:
+// 1. Web Development
+// 2. Python
+// 3.
+
 const portfolios = [
   {
     id: 1,
