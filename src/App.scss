@@ -43,3 +43,9 @@ footer {
 span {
     color: #78ffd6;
 }
+
+@media screen and (max-width: 411px){
+    html{
+        font-size: 70%;
+    }
+}

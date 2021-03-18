@@ -1,13 +1,27 @@
 .App {
+
     .sidebar {
         width: 16%;
         height: 100vh;
         background-color: $side-bar-color;
         position: fixed;
+        z-index: 11;
         // Border accent on the right side of the sidebar
         border-right: 1px solid $border-color;
+        transform-origin: left;
         @media screen and (max-width: 1000px){
+            transition: all .4s ease-in-out;
             transform: translateX(-100%);
+            width: 25%;
+        }
+        @media screen and (max-width: 411px){
+            width: 40%;
+        }
+    }
+
+    .nav-toggle{
+        @media screen and (max-width: 1000px){
+            transform: translateX(0);
         }
     }
 
@@ -19,6 +33,7 @@
         background-image: url(../img/dots.svg);
         display: grid;
         position: relative;
+
         .content{
             margin: 5rem 15rem;
         }
@@ -53,6 +68,7 @@
             margin-bottom: .5rem;
         }
     }
+    
     @media screen and (max-width: 1000px){
         display: block;
         .lines-1, .lines-2, .lines-3{

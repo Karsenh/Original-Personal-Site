@@ -17,6 +17,7 @@ const HomePage = () => {
         canvasClassName='HomePage'
         height='100vh'
         width='80vw'
+        overFlow='false'
       />
       <header className='hero'>
         <h1 className='hero-text'>
@@ -38,17 +39,20 @@ const HomePage = () => {
           />
         </p>
         <div className='icons'>
-          <Link to='test' className='icon-holder'>
-            <FontAwesomeIcon icon={faInstagram} className='icon ig' />
-          </Link>
-
-          <Link to='test' className='icon-holder'>
+          <a href='https://github.com/karsenh' className='icon-holder'>
             <FontAwesomeIcon icon={faGithub} className='icon gh' />
-          </Link>
+          </a>
 
-          <Link to='test' className='icon-holder'>
-            <FontAwesomeIcon icon={faLinkedin} className='icon lin' />
-          </Link>
+          <a href='https://www.linkedin.com/in/karsenh' className='icon-holder'>
+            <FontAwesomeIcon icon={faLinkedin} className='icon li' />
+          </a>
+
+          <a
+            href='https://www.instagram.com/realkarsen'
+            className='icon-holder'
+          >
+            <FontAwesomeIcon icon={faInstagram} className='icon ig' />
+          </a>
         </div>
       </header>
     </div>
