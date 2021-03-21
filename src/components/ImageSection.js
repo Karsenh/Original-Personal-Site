@@ -1,7 +1,12 @@
 import React from 'react';
 import aboutImg from '../img/about-img-2.png';
+import myPDF from '../myResume.pdf';
 
 function ImageSection() {
+  const downloadFile = () => {
+    window.location.href = myPDF;
+  };
+
   return (
     <div className='ImageSection'>
       <div className='img'>
@@ -39,7 +44,9 @@ function ImageSection() {
             </p>
           </div>
         </div>
-        <button className='btn'>Download</button>
+        <button onClick={downloadFile} className='btn'>
+          Download
+        </button>
       </div>
     </div>
   );
