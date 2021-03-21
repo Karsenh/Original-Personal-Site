@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.scss';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, HashRouter as Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
