@@ -36,7 +36,7 @@ function AboutPage() {
         <ServicesSection
           image={webdev}
           title={'Web Dev'}
-          text={'Professional web development using MERN technology stack.'}
+          text={'Professional full-stack web development.'}
         />
         <ServicesSection
           image={datascience}
