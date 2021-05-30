@@ -1,6 +1,6 @@
 import React from 'react';
 import aboutImg from '../img/about-img-2.png';
-import myPDF from '../myResume.pdf';
+import myPDF from '../Karsen_Hansen_Resume.pdf';
 
 function ImageSection() {
   const downloadFile = () => {

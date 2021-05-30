@@ -25,11 +25,11 @@ function NavBar() {
               <p>Portfolio</p>
             </NavLink>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <NavLink to='/blog' exact activeClassName='active'>
               <p>Blog</p>
             </NavLink>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <NavLink to='/contact' exact activeClassName='active'>
               <p>Contact</p>
