@@ -38,7 +38,7 @@ function AboutPage() {
         <ServicesSection
           image={datascience}
           title={'Data Science'}
-          text={'Cutting-edge data science & analytics using Python3.'}
+          text={'Cutting-edge data science & analytics using Python.'}
         />
         <ServicesSection
           image={uiux}
