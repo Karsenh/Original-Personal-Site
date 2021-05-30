@@ -48,10 +48,7 @@ function ImageSection() {
             <p>: Danish American</p>
             <p>: English, Danish</p>
             <p>: Liberty Lake, WA (the matrix)</p>
-            <p>
-              {' '}
-              Associates of Science & Bachelors in Computer Science ( 3.8GPA )
-            </p>
+            <p>: Bachelors in Computer Science (3.8GPA)</p>
           </div>
         </div>
         <button onClick={downloadFile} className='btn'>
