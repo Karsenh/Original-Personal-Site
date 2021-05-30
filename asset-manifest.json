@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b742f6ef.chunk.css",
-    "main.js": "/static/js/main.941286a5.chunk.js",
-    "main.js.map": "/static/js/main.941286a5.chunk.js.map",
+    "main.css": "/static/css/main.865c8976.chunk.css",
+    "main.js": "/static/js/main.6bca59c5.chunk.js",
+    "main.js.map": "/static/js/main.6bca59c5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ba4073e3.js",
     "runtime-main.js.map": "/static/js/runtime-main.ba4073e3.js.map",
     "static/js/2.8dd3d071.chunk.js": "/static/js/2.8dd3d071.chunk.js",
     "static/js/2.8dd3d071.chunk.js.map": "/static/js/2.8dd3d071.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b742f6ef.chunk.css.map": "/static/css/main.b742f6ef.chunk.css.map",
+    "static/css/main.865c8976.chunk.css.map": "/static/css/main.865c8976.chunk.css.map",
     "static/js/2.8dd3d071.chunk.js.LICENSE.txt": "/static/js/2.8dd3d071.chunk.js.LICENSE.txt",
     "static/media/Hangman.41802617.PNG": "/static/media/Hangman.41802617.PNG",
     "static/media/Karsen_Hansen_Resume.549100bd.pdf": "/static/media/Karsen_Hansen_Resume.549100bd.pdf",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.ba4073e3.js",
     "static/js/2.8dd3d071.chunk.js",
-    "static/css/main.b742f6ef.chunk.css",
-    "static/js/main.941286a5.chunk.js"
+    "static/css/main.865c8976.chunk.css",
+    "static/js/main.6bca59c5.chunk.js"
   ]
 }
