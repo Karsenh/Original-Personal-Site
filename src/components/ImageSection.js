@@ -7,6 +7,9 @@ function ImageSection() {
     window.location.href = myPDF;
   };
 
+  var currDate = new Date();
+  var currYear = currDate.getFullYear();
+
   return (
     <div className='ImageSection'>
       <div className='img'>
@@ -21,7 +24,14 @@ function ImageSection() {
           programming. I have a passion for{' '}
           <strong>Full-Stack Web Development</strong>,{' '}
           <strong>Data Science</strong>, & <strong>Software Development</strong>
-          . If you're ever curious what I'm up to, just check my GitHub.
+          . If you're ever curious what I'm up to, just check my{' '}
+          <a
+            style={{ textDecoration: 'none', color: '#35be95' }}
+            href='https://github.com/Karsenh'
+          >
+            GitHub
+          </a>
+          .
         </p>
         <div className='about-details'>
           <div className='left-section'>
@@ -34,7 +44,7 @@ function ImageSection() {
           </div>
           <div className='right-section'>
             <p>: Karsen Hansen</p>
-            <p>: 27</p>
+            <p>: {currYear - 1994}</p>
             <p>: Danish American</p>
             <p>: English, Danish</p>
             <p>: Liberty Lake, WA (the matrix)</p>
